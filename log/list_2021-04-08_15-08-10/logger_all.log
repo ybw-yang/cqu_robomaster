@@ -1,0 +1,138 @@
+[0.123s] DEBUG:colcon:Command line arguments: ['/usr/bin/colcon', 'list', '-p', '--base-paths', '/home/ybw/progrom/my_github/操作系统——贼强（总决赛0803）']
+[0.123s] DEBUG:colcon:Parsed command line arguments: Namespace(base_paths=['/home/ybw/progrom/my_github/操作系统——贼强（总决赛0803）'], build_base='build', ignore_user_meta=False, log_base=None, log_level=None, main=<bound method ListVerb.main of <colcon_package_information.verb.list.ListVerb object at 0x7fe4a984ea00>>, metas=['./colcon.meta'], names_only=False, packages_above=None, packages_above_and_dependencies=None, packages_above_depth=None, packages_end=None, packages_ignore=None, packages_ignore_regex=None, packages_select=None, packages_select_build_failed=False, packages_select_by_dep=None, packages_select_regex=None, packages_select_test_failures=False, packages_skip=None, packages_skip_build_finished=False, packages_skip_by_dep=None, packages_skip_regex=None, packages_skip_test_passed=False, packages_skip_up_to=None, packages_start=None, packages_up_to=None, packages_up_to_regex=None, paths=None, paths_only=True, topological_graph=False, topological_graph_density=False, topological_graph_dot=False, topological_graph_dot_cluster=False, topological_graph_dot_include_skipped=False, topological_graph_legend=False, topological_order=False, verb_extension=<colcon_package_information.verb.list.ListVerb object at 0x7fe4a984ea00>, verb_name='list', verb_parser=<colcon_defaults.argument_parser.defaults.DefaultArgumentsDecorator object at 0x7fe4a9780670>)
+[0.155s] Level 1:colcon.colcon_core.package_discovery:discover_packages(colcon_meta) check parameters
+[0.155s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) check parameters
+[0.155s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) check parameters
+[0.155s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) check parameters
+[0.155s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) discover
+[0.155s] INFO:colcon.colcon_core.package_discovery:Crawling recursively for packages in '/home/ybw/progrom/my_github/操作系统——贼强（总决赛0803）'
+[0.155s] Level 1:colcon.colcon_core.package_identification:_identify(/home/ybw/progrom/my_github/操作系统——贼强（总决赛0803）) by extensions ['ignore', 'ignore_ament_install']
+[0.155s] Level 1:colcon.colcon_core.package_identification:_identify(/home/ybw/progrom/my_github/操作系统——贼强（总决赛0803）) by extension 'ignore'
+[0.156s] Level 1:colcon.colcon_core.package_identification:_identify(/home/ybw/progrom/my_github/操作系统——贼强（总决赛0803）) by extension 'ignore_ament_install'
+[0.156s] Level 1:colcon.colcon_core.package_identification:_identify(/home/ybw/progrom/my_github/操作系统——贼强（总决赛0803）) by extensions ['colcon_pkg']
+[0.156s] Level 1:colcon.colcon_core.package_identification:_identify(/home/ybw/progrom/my_github/操作系统——贼强（总决赛0803）) by extension 'colcon_pkg'
+[0.156s] Level 1:colcon.colcon_core.package_identification:_identify(/home/ybw/progrom/my_github/操作系统——贼强（总决赛0803）) by extensions ['colcon_meta']
+[0.156s] Level 1:colcon.colcon_core.package_identification:_identify(/home/ybw/progrom/my_github/操作系统——贼强（总决赛0803）) by extension 'colcon_meta'
+[0.156s] Level 1:colcon.colcon_core.package_identification:_identify(/home/ybw/progrom/my_github/操作系统——贼强（总决赛0803）) by extensions ['ros']
+[0.156s] Level 1:colcon.colcon_core.package_identification:_identify(/home/ybw/progrom/my_github/操作系统——贼强（总决赛0803）) by extension 'ros'
+[0.171s] Level 1:colcon.colcon_core.package_identification:_identify(/home/ybw/progrom/my_github/操作系统——贼强（总决赛0803）) by extensions ['cmake', 'python']
+[0.171s] Level 1:colcon.colcon_core.package_identification:_identify(/home/ybw/progrom/my_github/操作系统——贼强（总决赛0803）) by extension 'cmake'
+[0.171s] Level 1:colcon.colcon_core.package_identification:_identify(/home/ybw/progrom/my_github/操作系统——贼强（总决赛0803）) by extension 'python'
+[0.171s] Level 1:colcon.colcon_core.package_identification:_identify(/home/ybw/progrom/my_github/操作系统——贼强（总决赛0803）) by extensions ['python_setup_py']
+[0.171s] Level 1:colcon.colcon_core.package_identification:_identify(/home/ybw/progrom/my_github/操作系统——贼强（总决赛0803）) by extension 'python_setup_py'
+[0.171s] Level 1:colcon.colcon_core.package_identification:_identify(/home/ybw/progrom/my_github/操作系统——贼强（总决赛0803）/core) by extensions ['ignore', 'ignore_ament_install']
+[0.171s] Level 1:colcon.colcon_core.package_identification:_identify(/home/ybw/progrom/my_github/操作系统——贼强（总决赛0803）/core) by extension 'ignore'
+[0.171s] Level 1:colcon.colcon_core.package_identification:_identify(/home/ybw/progrom/my_github/操作系统——贼强（总决赛0803）/core) by extension 'ignore_ament_install'
+[0.172s] Level 1:colcon.colcon_core.package_identification:_identify(/home/ybw/progrom/my_github/操作系统——贼强（总决赛0803）/core) by extensions ['colcon_pkg']
+[0.172s] Level 1:colcon.colcon_core.package_identification:_identify(/home/ybw/progrom/my_github/操作系统——贼强（总决赛0803）/core) by extension 'colcon_pkg'
+[0.172s] Level 1:colcon.colcon_core.package_identification:_identify(/home/ybw/progrom/my_github/操作系统——贼强（总决赛0803）/core) by extensions ['colcon_meta']
+[0.172s] Level 1:colcon.colcon_core.package_identification:_identify(/home/ybw/progrom/my_github/操作系统——贼强（总决赛0803）/core) by extension 'colcon_meta'
+[0.172s] Level 1:colcon.colcon_core.package_identification:_identify(/home/ybw/progrom/my_github/操作系统——贼强（总决赛0803）/core) by extensions ['ros']
+[0.172s] Level 1:colcon.colcon_core.package_identification:_identify(/home/ybw/progrom/my_github/操作系统——贼强（总决赛0803）/core) by extension 'ros'
+[0.172s] Level 1:colcon.colcon_core.package_identification:_identify(/home/ybw/progrom/my_github/操作系统——贼强（总决赛0803）/core) by extensions ['cmake', 'python']
+[0.172s] Level 1:colcon.colcon_core.package_identification:_identify(/home/ybw/progrom/my_github/操作系统——贼强（总决赛0803）/core) by extension 'cmake'
+[0.172s] Level 1:colcon.colcon_core.package_identification:_identify(/home/ybw/progrom/my_github/操作系统——贼强（总决赛0803）/core) by extension 'python'
+[0.172s] Level 1:colcon.colcon_core.package_identification:_identify(/home/ybw/progrom/my_github/操作系统——贼强（总决赛0803）/core) by extensions ['python_setup_py']
+[0.172s] Level 1:colcon.colcon_core.package_identification:_identify(/home/ybw/progrom/my_github/操作系统——贼强（总决赛0803）/core) by extension 'python_setup_py'
+[0.172s] Level 1:colcon.colcon_core.package_identification:_identify(/home/ybw/progrom/my_github/操作系统——贼强（总决赛0803）/driver) by extensions ['ignore', 'ignore_ament_install']
+[0.172s] Level 1:colcon.colcon_core.package_identification:_identify(/home/ybw/progrom/my_github/操作系统——贼强（总决赛0803）/driver) by extension 'ignore'
+[0.172s] Level 1:colcon.colcon_core.package_identification:_identify(/home/ybw/progrom/my_github/操作系统——贼强（总决赛0803）/driver) by extension 'ignore_ament_install'
+[0.172s] Level 1:colcon.colcon_core.package_identification:_identify(/home/ybw/progrom/my_github/操作系统——贼强（总决赛0803）/driver) by extensions ['colcon_pkg']
+[0.172s] Level 1:colcon.colcon_core.package_identification:_identify(/home/ybw/progrom/my_github/操作系统——贼强（总决赛0803）/driver) by extension 'colcon_pkg'
+[0.172s] Level 1:colcon.colcon_core.package_identification:_identify(/home/ybw/progrom/my_github/操作系统——贼强（总决赛0803）/driver) by extensions ['colcon_meta']
+[0.173s] Level 1:colcon.colcon_core.package_identification:_identify(/home/ybw/progrom/my_github/操作系统——贼强（总决赛0803）/driver) by extension 'colcon_meta'
+[0.173s] Level 1:colcon.colcon_core.package_identification:_identify(/home/ybw/progrom/my_github/操作系统——贼强（总决赛0803）/driver) by extensions ['ros']
+[0.173s] Level 1:colcon.colcon_core.package_identification:_identify(/home/ybw/progrom/my_github/操作系统——贼强（总决赛0803）/driver) by extension 'ros'
+[0.173s] Level 1:colcon.colcon_core.package_identification:_identify(/home/ybw/progrom/my_github/操作系统——贼强（总决赛0803）/driver) by extensions ['cmake', 'python']
+[0.173s] Level 1:colcon.colcon_core.package_identification:_identify(/home/ybw/progrom/my_github/操作系统——贼强（总决赛0803）/driver) by extension 'cmake'
+[0.173s] Level 1:colcon.colcon_core.package_identification:_identify(/home/ybw/progrom/my_github/操作系统——贼强（总决赛0803）/driver) by extension 'python'
+[0.173s] Level 1:colcon.colcon_core.package_identification:_identify(/home/ybw/progrom/my_github/操作系统——贼强（总决赛0803）/driver) by extensions ['python_setup_py']
+[0.173s] Level 1:colcon.colcon_core.package_identification:_identify(/home/ybw/progrom/my_github/操作系统——贼强（总决赛0803）/driver) by extension 'python_setup_py'
+[0.173s] Level 1:colcon.colcon_core.package_identification:_identify(/home/ybw/progrom/my_github/操作系统——贼强（总决赛0803）/driver/inc) by extensions ['ignore', 'ignore_ament_install']
+[0.173s] Level 1:colcon.colcon_core.package_identification:_identify(/home/ybw/progrom/my_github/操作系统——贼强（总决赛0803）/driver/inc) by extension 'ignore'
+[0.173s] Level 1:colcon.colcon_core.package_identification:_identify(/home/ybw/progrom/my_github/操作系统——贼强（总决赛0803）/driver/inc) by extension 'ignore_ament_install'
+[0.173s] Level 1:colcon.colcon_core.package_identification:_identify(/home/ybw/progrom/my_github/操作系统——贼强（总决赛0803）/driver/inc) by extensions ['colcon_pkg']
+[0.173s] Level 1:colcon.colcon_core.package_identification:_identify(/home/ybw/progrom/my_github/操作系统——贼强（总决赛0803）/driver/inc) by extension 'colcon_pkg'
+[0.173s] Level 1:colcon.colcon_core.package_identification:_identify(/home/ybw/progrom/my_github/操作系统——贼强（总决赛0803）/driver/inc) by extensions ['colcon_meta']
+[0.173s] Level 1:colcon.colcon_core.package_identification:_identify(/home/ybw/progrom/my_github/操作系统——贼强（总决赛0803）/driver/inc) by extension 'colcon_meta'
+[0.173s] Level 1:colcon.colcon_core.package_identification:_identify(/home/ybw/progrom/my_github/操作系统——贼强（总决赛0803）/driver/inc) by extensions ['ros']
+[0.173s] Level 1:colcon.colcon_core.package_identification:_identify(/home/ybw/progrom/my_github/操作系统——贼强（总决赛0803）/driver/inc) by extension 'ros'
+[0.174s] Level 1:colcon.colcon_core.package_identification:_identify(/home/ybw/progrom/my_github/操作系统——贼强（总决赛0803）/driver/inc) by extensions ['cmake', 'python']
+[0.174s] Level 1:colcon.colcon_core.package_identification:_identify(/home/ybw/progrom/my_github/操作系统——贼强（总决赛0803）/driver/inc) by extension 'cmake'
+[0.174s] Level 1:colcon.colcon_core.package_identification:_identify(/home/ybw/progrom/my_github/操作系统——贼强（总决赛0803）/driver/inc) by extension 'python'
+[0.174s] Level 1:colcon.colcon_core.package_identification:_identify(/home/ybw/progrom/my_github/操作系统——贼强（总决赛0803）/driver/inc) by extensions ['python_setup_py']
+[0.174s] Level 1:colcon.colcon_core.package_identification:_identify(/home/ybw/progrom/my_github/操作系统——贼强（总决赛0803）/driver/inc) by extension 'python_setup_py'
+[0.174s] Level 1:colcon.colcon_core.package_identification:_identify(/home/ybw/progrom/my_github/操作系统——贼强（总决赛0803）/lib) by extensions ['ignore', 'ignore_ament_install']
+[0.174s] Level 1:colcon.colcon_core.package_identification:_identify(/home/ybw/progrom/my_github/操作系统——贼强（总决赛0803）/lib) by extension 'ignore'
+[0.174s] Level 1:colcon.colcon_core.package_identification:_identify(/home/ybw/progrom/my_github/操作系统——贼强（总决赛0803）/lib) by extension 'ignore_ament_install'
+[0.174s] Level 1:colcon.colcon_core.package_identification:_identify(/home/ybw/progrom/my_github/操作系统——贼强（总决赛0803）/lib) by extensions ['colcon_pkg']
+[0.174s] Level 1:colcon.colcon_core.package_identification:_identify(/home/ybw/progrom/my_github/操作系统——贼强（总决赛0803）/lib) by extension 'colcon_pkg'
+[0.174s] Level 1:colcon.colcon_core.package_identification:_identify(/home/ybw/progrom/my_github/操作系统——贼强（总决赛0803）/lib) by extensions ['colcon_meta']
+[0.174s] Level 1:colcon.colcon_core.package_identification:_identify(/home/ybw/progrom/my_github/操作系统——贼强（总决赛0803）/lib) by extension 'colcon_meta'
+[0.174s] Level 1:colcon.colcon_core.package_identification:_identify(/home/ybw/progrom/my_github/操作系统——贼强（总决赛0803）/lib) by extensions ['ros']
+[0.174s] Level 1:colcon.colcon_core.package_identification:_identify(/home/ybw/progrom/my_github/操作系统——贼强（总决赛0803）/lib) by extension 'ros'
+[0.174s] Level 1:colcon.colcon_core.package_identification:_identify(/home/ybw/progrom/my_github/操作系统——贼强（总决赛0803）/lib) by extensions ['cmake', 'python']
+[0.174s] Level 1:colcon.colcon_core.package_identification:_identify(/home/ybw/progrom/my_github/操作系统——贼强（总决赛0803）/lib) by extension 'cmake'
+[0.175s] Level 1:colcon.colcon_core.package_identification:_identify(/home/ybw/progrom/my_github/操作系统——贼强（总决赛0803）/lib) by extension 'python'
+[0.175s] Level 1:colcon.colcon_core.package_identification:_identify(/home/ybw/progrom/my_github/操作系统——贼强（总决赛0803）/lib) by extensions ['python_setup_py']
+[0.175s] Level 1:colcon.colcon_core.package_identification:_identify(/home/ybw/progrom/my_github/操作系统——贼强（总决赛0803）/lib) by extension 'python_setup_py'
+[0.175s] Level 1:colcon.colcon_core.package_identification:_identify(/home/ybw/progrom/my_github/操作系统——贼强（总决赛0803）/lib/freertos) by extensions ['ignore', 'ignore_ament_install']
+[0.175s] Level 1:colcon.colcon_core.package_identification:_identify(/home/ybw/progrom/my_github/操作系统——贼强（总决赛0803）/lib/freertos) by extension 'ignore'
+[0.175s] Level 1:colcon.colcon_core.package_identification:_identify(/home/ybw/progrom/my_github/操作系统——贼强（总决赛0803）/lib/freertos) by extension 'ignore_ament_install'
+[0.175s] Level 1:colcon.colcon_core.package_identification:_identify(/home/ybw/progrom/my_github/操作系统——贼强（总决赛0803）/lib/freertos) by extensions ['colcon_pkg']
+[0.175s] Level 1:colcon.colcon_core.package_identification:_identify(/home/ybw/progrom/my_github/操作系统——贼强（总决赛0803）/lib/freertos) by extension 'colcon_pkg'
+[0.175s] Level 1:colcon.colcon_core.package_identification:_identify(/home/ybw/progrom/my_github/操作系统——贼强（总决赛0803）/lib/freertos) by extensions ['colcon_meta']
+[0.175s] Level 1:colcon.colcon_core.package_identification:_identify(/home/ybw/progrom/my_github/操作系统——贼强（总决赛0803）/lib/freertos) by extension 'colcon_meta'
+[0.175s] Level 1:colcon.colcon_core.package_identification:_identify(/home/ybw/progrom/my_github/操作系统——贼强（总决赛0803）/lib/freertos) by extensions ['ros']
+[0.175s] Level 1:colcon.colcon_core.package_identification:_identify(/home/ybw/progrom/my_github/操作系统——贼强（总决赛0803）/lib/freertos) by extension 'ros'
+[0.175s] Level 1:colcon.colcon_core.package_identification:_identify(/home/ybw/progrom/my_github/操作系统——贼强（总决赛0803）/lib/freertos) by extensions ['cmake', 'python']
+[0.175s] Level 1:colcon.colcon_core.package_identification:_identify(/home/ybw/progrom/my_github/操作系统——贼强（总决赛0803）/lib/freertos) by extension 'cmake'
+[0.175s] Level 1:colcon.colcon_core.package_identification:_identify(/home/ybw/progrom/my_github/操作系统——贼强（总决赛0803）/lib/freertos) by extension 'python'
+[0.175s] Level 1:colcon.colcon_core.package_identification:_identify(/home/ybw/progrom/my_github/操作系统——贼强（总决赛0803）/lib/freertos) by extensions ['python_setup_py']
+[0.175s] Level 1:colcon.colcon_core.package_identification:_identify(/home/ybw/progrom/my_github/操作系统——贼强（总决赛0803）/lib/freertos) by extension 'python_setup_py'
+[0.176s] Level 1:colcon.colcon_core.package_identification:_identify(/home/ybw/progrom/my_github/操作系统——贼强（总决赛0803）/lib/freertos/src) by extensions ['ignore', 'ignore_ament_install']
+[0.176s] Level 1:colcon.colcon_core.package_identification:_identify(/home/ybw/progrom/my_github/操作系统——贼强（总决赛0803）/lib/freertos/src) by extension 'ignore'
+[0.176s] Level 1:colcon.colcon_core.package_identification:_identify(/home/ybw/progrom/my_github/操作系统——贼强（总决赛0803）/lib/freertos/src) by extension 'ignore_ament_install'
+[0.176s] Level 1:colcon.colcon_core.package_identification:_identify(/home/ybw/progrom/my_github/操作系统——贼强（总决赛0803）/lib/freertos/src) by extensions ['colcon_pkg']
+[0.176s] Level 1:colcon.colcon_core.package_identification:_identify(/home/ybw/progrom/my_github/操作系统——贼强（总决赛0803）/lib/freertos/src) by extension 'colcon_pkg'
+[0.176s] Level 1:colcon.colcon_core.package_identification:_identify(/home/ybw/progrom/my_github/操作系统——贼强（总决赛0803）/lib/freertos/src) by extensions ['colcon_meta']
+[0.176s] Level 1:colcon.colcon_core.package_identification:_identify(/home/ybw/progrom/my_github/操作系统——贼强（总决赛0803）/lib/freertos/src) by extension 'colcon_meta'
+[0.176s] Level 1:colcon.colcon_core.package_identification:_identify(/home/ybw/progrom/my_github/操作系统——贼强（总决赛0803）/lib/freertos/src) by extensions ['ros']
+[0.176s] Level 1:colcon.colcon_core.package_identification:_identify(/home/ybw/progrom/my_github/操作系统——贼强（总决赛0803）/lib/freertos/src) by extension 'ros'
+[0.176s] Level 1:colcon.colcon_core.package_identification:_identify(/home/ybw/progrom/my_github/操作系统——贼强（总决赛0803）/lib/freertos/src) by extensions ['cmake', 'python']
+[0.176s] Level 1:colcon.colcon_core.package_identification:_identify(/home/ybw/progrom/my_github/操作系统——贼强（总决赛0803）/lib/freertos/src) by extension 'cmake'
+[0.176s] Level 1:colcon.colcon_core.package_identification:_identify(/home/ybw/progrom/my_github/操作系统——贼强（总决赛0803）/lib/freertos/src) by extension 'python'
+[0.176s] Level 1:colcon.colcon_core.package_identification:_identify(/home/ybw/progrom/my_github/操作系统——贼强（总决赛0803）/lib/freertos/src) by extensions ['python_setup_py']
+[0.176s] Level 1:colcon.colcon_core.package_identification:_identify(/home/ybw/progrom/my_github/操作系统——贼强（总决赛0803）/lib/freertos/src) by extension 'python_setup_py'
+[0.176s] Level 1:colcon.colcon_core.package_identification:_identify(/home/ybw/progrom/my_github/操作系统——贼强（总决赛0803）/lib/std) by extensions ['ignore', 'ignore_ament_install']
+[0.177s] Level 1:colcon.colcon_core.package_identification:_identify(/home/ybw/progrom/my_github/操作系统——贼强（总决赛0803）/lib/std) by extension 'ignore'
+[0.177s] Level 1:colcon.colcon_core.package_identification:_identify(/home/ybw/progrom/my_github/操作系统——贼强（总决赛0803）/lib/std) by extension 'ignore_ament_install'
+[0.177s] Level 1:colcon.colcon_core.package_identification:_identify(/home/ybw/progrom/my_github/操作系统——贼强（总决赛0803）/lib/std) by extensions ['colcon_pkg']
+[0.177s] Level 1:colcon.colcon_core.package_identification:_identify(/home/ybw/progrom/my_github/操作系统——贼强（总决赛0803）/lib/std) by extension 'colcon_pkg'
+[0.177s] Level 1:colcon.colcon_core.package_identification:_identify(/home/ybw/progrom/my_github/操作系统——贼强（总决赛0803）/lib/std) by extensions ['colcon_meta']
+[0.177s] Level 1:colcon.colcon_core.package_identification:_identify(/home/ybw/progrom/my_github/操作系统——贼强（总决赛0803）/lib/std) by extension 'colcon_meta'
+[0.177s] Level 1:colcon.colcon_core.package_identification:_identify(/home/ybw/progrom/my_github/操作系统——贼强（总决赛0803）/lib/std) by extensions ['ros']
+[0.177s] Level 1:colcon.colcon_core.package_identification:_identify(/home/ybw/progrom/my_github/操作系统——贼强（总决赛0803）/lib/std) by extension 'ros'
+[0.177s] Level 1:colcon.colcon_core.package_identification:_identify(/home/ybw/progrom/my_github/操作系统——贼强（总决赛0803）/lib/std) by extensions ['cmake', 'python']
+[0.177s] Level 1:colcon.colcon_core.package_identification:_identify(/home/ybw/progrom/my_github/操作系统——贼强（总决赛0803）/lib/std) by extension 'cmake'
+[0.177s] Level 1:colcon.colcon_core.package_identification:_identify(/home/ybw/progrom/my_github/操作系统——贼强（总决赛0803）/lib/std) by extension 'python'
+[0.177s] Level 1:colcon.colcon_core.package_identification:_identify(/home/ybw/progrom/my_github/操作系统——贼强（总决赛0803）/lib/std) by extensions ['python_setup_py']
+[0.177s] Level 1:colcon.colcon_core.package_identification:_identify(/home/ybw/progrom/my_github/操作系统——贼强（总决赛0803）/lib/std) by extension 'python_setup_py'
+[0.177s] Level 1:colcon.colcon_core.package_identification:_identify(/home/ybw/progrom/my_github/操作系统——贼强（总决赛0803）/lib/std/src) by extensions ['ignore', 'ignore_ament_install']
+[0.177s] Level 1:colcon.colcon_core.package_identification:_identify(/home/ybw/progrom/my_github/操作系统——贼强（总决赛0803）/lib/std/src) by extension 'ignore'
+[0.177s] Level 1:colcon.colcon_core.package_identification:_identify(/home/ybw/progrom/my_github/操作系统——贼强（总决赛0803）/lib/std/src) by extension 'ignore_ament_install'
+[0.178s] Level 1:colcon.colcon_core.package_identification:_identify(/home/ybw/progrom/my_github/操作系统——贼强（总决赛0803）/lib/std/src) by extensions ['colcon_pkg']
+[0.178s] Level 1:colcon.colcon_core.package_identification:_identify(/home/ybw/progrom/my_github/操作系统——贼强（总决赛0803）/lib/std/src) by extension 'colcon_pkg'
+[0.178s] Level 1:colcon.colcon_core.package_identification:_identify(/home/ybw/progrom/my_github/操作系统——贼强（总决赛0803）/lib/std/src) by extensions ['colcon_meta']
+[0.178s] Level 1:colcon.colcon_core.package_identification:_identify(/home/ybw/progrom/my_github/操作系统——贼强（总决赛0803）/lib/std/src) by extension 'colcon_meta'
+[0.178s] Level 1:colcon.colcon_core.package_identification:_identify(/home/ybw/progrom/my_github/操作系统——贼强（总决赛0803）/lib/std/src) by extensions ['ros']
+[0.178s] Level 1:colcon.colcon_core.package_identification:_identify(/home/ybw/progrom/my_github/操作系统——贼强（总决赛0803）/lib/std/src) by extension 'ros'
+[0.178s] Level 1:colcon.colcon_core.package_identification:_identify(/home/ybw/progrom/my_github/操作系统——贼强（总决赛0803）/lib/std/src) by extensions ['cmake', 'python']
+[0.178s] Level 1:colcon.colcon_core.package_identification:_identify(/home/ybw/progrom/my_github/操作系统——贼强（总决赛0803）/lib/std/src) by extension 'cmake'
+[0.178s] Level 1:colcon.colcon_core.package_identification:_identify(/home/ybw/progrom/my_github/操作系统——贼强（总决赛0803）/lib/std/src) by extension 'python'
+[0.178s] Level 1:colcon.colcon_core.package_identification:_identify(/home/ybw/progrom/my_github/操作系统——贼强（总决赛0803）/lib/std/src) by extensions ['python_setup_py']
+[0.178s] Level 1:colcon.colcon_core.package_identification:_identify(/home/ybw/progrom/my_github/操作系统——贼强（总决赛0803）/lib/std/src) by extension 'python_setup_py'
+[0.178s] Level 1:colcon.colcon_core.package_identification:_identify(/home/ybw/progrom/my_github/操作系统——贼强（总决赛0803）/log) by extensions ['ignore', 'ignore_ament_install']
+[0.178s] Level 1:colcon.colcon_core.package_identification:_identify(/home/ybw/progrom/my_github/操作系统——贼强（总决赛0803）/log) by extension 'ignore'
+[0.178s] Level 1:colcon.colcon_core.package_identification:_identify(/home/ybw/progrom/my_github/操作系统——贼强（总决赛0803）/log) ignored
+[0.178s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) using defaults
